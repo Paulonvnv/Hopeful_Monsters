@@ -52,6 +52,21 @@ if(!require(qdapDictionaries)){
   library(qdapDictionaries)
 }
 
+if(!require(shinylive)){
+  install.packages('shinylive')
+  library(shinylive)
+}else{
+  library(shinylive)
+}
+
+if(!require(httpuv)){
+  install.packages('httpuv')
+  library(httpuv)
+}else{
+  library(httpuv)
+}
+
+
 # Functions----
 
 get_new_sentence = function(my_sentence = NULL,
@@ -132,9 +147,12 @@ get_new_sentence = function(my_sentence = NULL,
       # For each position in the sentence allows mutation to occurs at the specified mutation rate
       for(i in  1:length(merged_words)){
         
-        if(runif(1) <= mutation_rate){
+        if(runif(1) <= mutation_rate){# If mutation happens, substitute, delete or insert a random character
           
-          merged_words[i] = sample(c(letters, ''), 1) # If mutation happens, pick a random character
+          merged_words[i] = sample(c(letters, # Substitution 
+                                     '', # Deletion
+                                     paste(merged_words[i], letters, sep =''), # Insertion
+                                     ), 1) 
           
         }
         
