@@ -1,0 +1,1 @@
+Rscript -e 'library(methods); shiny::runApp("./app.R", launch.browser = TRUE)'

@@ -1,1 +1,0 @@
-Rscript -e 'library(methods); shiny::runApp("./WritingApp.R", launch.browser = TRUE)'
