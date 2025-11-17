@@ -66,19 +66,19 @@ if(!require(DT)){
   library(DT)
 }
 
-if(!require(shinylive)){
-  install.packages('shinylive')
-  library(shinylive)
-}else{
-  library(shinylive)
-}
-
-if(!require(httpuv)){
-  install.packages('httpuv')
-  library(httpuv)
-}else{
-  library(httpuv)
-}
+# if(!require(shinylive)){
+#   install.packages('shinylive')
+#   library(shinylive)
+# }else{
+#   library(shinylive)
+# }
+# 
+# if(!require(httpuv)){
+#   install.packages('httpuv')
+#   library(httpuv)
+# }else{
+#   library(httpuv)
+# }
 
 
 # Functions----
