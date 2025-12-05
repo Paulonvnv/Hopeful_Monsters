@@ -23,7 +23,7 @@ Once you've installed the mentioned programs, proceed to clone this repository u
 
 At the moment, the tool only works locally, but in the next update its use will be enabled through a web browser.
 
-**Note!**: Next steps are for MacOS or Linux user, if you work with Windows system, you have to run the tool directly from RStudio.
+**Note!**: Next steps are for MacOS or Linux users, if you work with Windows system, you have to run the tool directly from RStudio.
 
 1. Once all the prerequisites are installed, open your computer's terminal and using the `cd` command navigate to the folder you downloaded from the github repository:
 ```
