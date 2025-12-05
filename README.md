@@ -33,7 +33,7 @@ cd /path_to/Hopeful_Monsters-main/
 ls -l
 ```
 
-<img style="float: center;" src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png" alt="" width="550" height="350">
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png" alt="" width="550" height="350">
 
 3. Si el archivo no es ejecutable, ejecuta el comando `chomd`:
 
@@ -53,6 +53,7 @@ cd /path_to/Hopeful_Monsters-main/
 ./WritingApp.sh
 ```
 La herramienta deberia abri tu navegador de forma automatica y mostrarte la siguiente ventana:
-![image2](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png)
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png" alt="" width="550" height="350">
+
 
 3. 
