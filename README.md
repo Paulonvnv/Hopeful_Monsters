@@ -19,7 +19,7 @@ Instrucciones para la descarga e instalacion de estos programas se pueden encont
 
 Una vez instalado los programas mencionados, procede a clonar este repositorio usando git, o si no estas familiarizado con git puedes descargar el archivo comprimido de la herramienta en el siguiente [link](https://github.com/Paulonvnv/Hopeful_Monsters/archive/refs/heads/main.zip), y descomprime la carpeta en el directorio de tu preferencia.
 
-## Uso de la herramienta
+## Installacion de la herramienta
 De momento la herramienta solo funciona de manera local pero en la siguiente actualizacion se habilitara su uso desde un navegador de internet.
 
 ### MacOS o linux
@@ -28,11 +28,27 @@ De momento la herramienta solo funciona de manera local pero en la siguiente act
 ```{bash}
 cd /path_to/Hopeful_Monsters-main/
 ```
-2. Luego asegurate de que los archivos `WritingApp.R` y `WritingApp.sh` sean ejecutables, esto lo puede vizualizar con el comando `ls`:
+2. Luego asegurate de que el archivo `WritingApp.sh` sea ejecutable, esto lo puede vizualizar con el comando `ls`:
 ```{bash}
 ls -l
 ```
-`![Los archivos deberian tener el atributo x para todos los usuarion del ordenador](./image1.png)`
+![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)
+3. Si el archivo no es ejecutable, ejecuta el comando `chomd`:
+```
+chmod +x WritingApp.sh
+```
+!Este paso lo lo debes ejecutar la primera vez que usas la herramienta.
 
+# Uso de la herramienta
 
+1. Abre la terminal de tu ordenador y usando el comando `cd` dirigete hacia la carpeta que descargaste del repositorio en github:
+```{bash}
+cd /path_to/Hopeful_Monsters-main/
+```
+2. Ejecuta la siguiente linea de comando en la terminal:
+```
+./WritingApp.sh
+```
+La herramienta deberia abri tu navegador de forma automatica y mostrarte la siguiente ventana:
+![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)
 3. 
