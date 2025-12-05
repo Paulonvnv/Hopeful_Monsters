@@ -8,7 +8,7 @@ The molecular machinery of an organism's cells replicates genetic material durin
 Similarly, during the literary writing process, it is common to rewrite the work multiple times. This process introduces changes, some deliberately and others involuntarily, that occasionally shift the writing's meaning and improve it.
 That is why here we have incorporated an algorithm that mirrors this rewriting process and couples the molecular mechanisms of DNA chain replication to introduce changes that can help the writer identify new ideas to incorporate into their work.
 
-## Requirements for Using the Tool
+## Requirements for using the tool
 
 The algorithm is written in the R programming language and also uses Ollama.
 Instructions for downloading and installing these programs can be found at the following links:
@@ -19,11 +19,11 @@ Instructions for downloading and installing these programs can be found at the f
 
 Once you've installed the mentioned programs, proceed to clone this repository using git, or if you're not familiar with git, you can download the compressed file of the tool at the following [link](https://github.com/Paulonvnv/Hopeful_Monsters/archive/refs/heads/main.zip), and extract the folder to your preferred directory.
 
-## Tool Installation
+## Tool installation
 
 At the moment, the tool only works locally, but in the next update its use will be enabled through a web browser.
 
-### MacOS o linux
+**Note!**: Next steps are for MacOS or Linux user, if you work with Windows system, you have to run the tool directly from RStudio.
 
 1. Once all the prerequisites are installed, open your computer's terminal and using the `cd` command navigate to the folder you downloaded from the github repository:
 ```
@@ -43,7 +43,7 @@ chmod +x WritingApp.sh
 ```
 **Note!:** You only need to execute this step the first time you use the tool.
 
-# Using the Tool
+## Using the Tool
 
 1. Open your computer's terminal and using the cd command navigate to the folder you downloaded from the github repository:
 ```
