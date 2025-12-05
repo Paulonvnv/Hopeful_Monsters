@@ -75,6 +75,6 @@ More information regarding how these parameters are used by the tool can be foun
 
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image4.png" alt="" width="350" height="550">
 
-7. To obtain a sample of the final result, press the `sample` button, and a table with the final result of the simulation will be displayed. You can press the sample button as many times as you wish, and each time it will provide you with a slightly different result.
+7. To obtain a sample of the final result, press the `sample` button and scroll down the window, and a table with the final result of the simulation will be displayed. You can press the sample button as many times as you wish, and each time it will provide you with a slightly different result.
 
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image5.png" alt="" width="350" height="550">
