@@ -1,13 +1,12 @@
 # Hopeful monsters
-El termino hopeful monsters se empleo originalmente en el area de la biologia evolutiva por Richard Goldschmidt en 1940 como mecanismo para explicar como pocas mutaciones en el genoma del organimo pueden generar eventos macroevolutivods y cambios saltacionales en una especie, algo que la teoria tradicional de evolucion gradual no puedia hacer por si sola.
-Un posible ejemplo de este tipo de mecanismo puede ser el de los mutantes homeoticos, en donde una parte del organismo crece en una region erronea del cuerpo. Ejemplos de ello son el reemplazo de antenas por patas en el caso de la mosca de la fruta, o el reordenamiento de los sepalos, petalos, estambres y carpelos en las estructuras florales de las plantas.
-Si bien bajo una vision zoocentrista el costo de adecuacion de estos mutantes deberia ser muy elevado y este tipo de organismos no pudieran tener la posibilidad de dejar descendencia, en otros organismos como las plantas esto no es necesariamiente cierto.
+The term "hopeful monsters" was originally employed in the field of evolutionary biology by Richard Goldschmidt in 1940 as a mechanism to explain how a few mutations in an organism's genome can generate macroevolutionary events and saltational changes in a species, something that the traditional theory of gradual evolution could not do on its own.
+A possible example of this type of mechanism could be homeotic mutants, where a part of the organism grows in the wrong region of the body. Examples of this include the replacement of antennae with legs in the case of the fruit fly, or the rearrangement of sepals, petals, stamens, and carpels in the floral structures of plants.
+Although from a zoocentric perspective the fitness cost of these mutants should be very high and these types of organisms might not have the possibility of leaving offspring, in other organisms such as plants this is not necessarily true.
 
-Aqui deseamos extrapolar este concepto evolutivo de hopeful monsters al proceso de escritura literaria.
-La maquinaria molecular de las celulas de un organismo replican el material genetico durante el crecimiento del organimso y la formacion de gametos para la reproduccion, 
-y durante este proceso se introducen errores en la cadena de ADN que pueden tener consecuencias fenotipicas inseperadas que descencadenan en la generacion de una nueva especie.
-De igual manera durante el proceso de escritura literaria, es comun reescribir nuestra obra multiples veces, y en este proceso introducimos cambios, algunos a drede y otros de forma involuntaria, que aveces cambian el sentido de la escritura y la mejoran.
-Es por ello que aqui hemos dise~nado un algoritmo que realiza este proceso de reescritura y que acopla los mecanismos moleculares de la replicacion de las cadenas de ADN para introducir cambios que puedan ayudar al escritor a identificar nuevas ideas para incorporar en su obra.
+Here we wish to extrapolate this evolutionary concept of hopeful monsters to the process of literary writing.
+The molecular machinery of an organism's cells replicates genetic material during the organism's growth and the formation of gametes for reproduction. During this process errors are introduced into the DNA chain, and they can have unexpected phenotypic consequences sometimes triggering the generation of a new species.
+Similarly, during the literary writing process, it is common to rewrite the work multiple times. This process introduces changes, some deliberately and others involuntarily, that occasionally shift the writing's meaning and improve it.
+That is why here we have incorporated an algorithm that mirrors this rewriting process and couples the molecular mechanisms of DNA chain replication to introduce changes that can help the writer identify new ideas to incorporate into their work.
 
 ## Requerimientos usar la herramienta
 
@@ -18,4 +17,15 @@ Instrucciones para la descarga e instalacion de estos programas se pueden encont
 - [Download Ollama](https://ollama.com/download)
 - [Download RStudio](https://posit.co/download/rstudio-desktop/)
 
-Una vez instalado los programas mencionados, procede a clonar este repositorio usando git, o si no estas familiarizado con git puedes descargar el archivo comprimido de la herramienta en el siguiente [link](https://github.com/Paulonvnv/Hopeful_Monsters/archive/refs/heads/main.zip)
+Una vez instalado los programas mencionados, procede a clonar este repositorio usando git, o si no estas familiarizado con git puedes descargar el archivo comprimido de la herramienta en el siguiente [link](https://github.com/Paulonvnv/Hopeful_Monsters/archive/refs/heads/main.zip), y descomprime la carpeta en el directorio de tu preferencia.
+
+## Uso de la herramienta
+De momento la herramienta solo funciona de manera local pero en la siguiente actualizacion se habilitara su uso desde un navegador de internet.
+
+### MacOS o linux
+
+1. Una vez instalados todos los requerimientos previos, abre la terminal de tu ordenador y usando el comando `cd` dirigete hacia la carpeta que descargaste del repositorio en github:
+```{bash}
+cd /path_to/Hopeful_Monsters_main
+```
+2. 
