@@ -32,8 +32,11 @@ cd /path_to/Hopeful_Monsters-main/
 ```{bash}
 ls -l
 ```
-![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)
+
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png" alt="" width="550" height="350">
+
 3. Si el archivo no es ejecutable, ejecuta el comando `chomd`:
+
 ```
 chmod +x WritingApp.sh
 ```
@@ -50,5 +53,7 @@ cd /path_to/Hopeful_Monsters-main/
 ./WritingApp.sh
 ```
 La herramienta deberia abri tu navegador de forma automatica y mostrarte la siguiente ventana:
-![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png" alt="" width="350" height="550">
+
+
 3. 
