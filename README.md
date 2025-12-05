@@ -53,7 +53,7 @@ cd /path_to/Hopeful_Monsters-main/
 ./WritingApp.sh
 ```
 La herramienta deberia abri tu navegador de forma automatica y mostrarte la siguiente ventana:
-<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png" alt="" width="550" height="350">
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png" alt="" width="350" height="550">
 
 
 3. 
