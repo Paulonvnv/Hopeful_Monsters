@@ -41,7 +41,7 @@ ls -l
 ```
 chmod +x WritingApp.sh
 ```
-**!Note:** You only need to execute this step the first time you use the tool.
+**Note!:** You only need to execute this step the first time you use the tool.
 
 # Using the Tool
 
@@ -54,12 +54,14 @@ cd /path_to/Hopeful_Monsters-main/
 ./WritingApp.sh
 ```
 The tool should automatically open your browser and show you the following window:
+
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png" alt="" width="350" height="550">
 
 3. In it you will find a text box where you can enter the sentence or paragraph you want to use as a query:
+   
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image3.png" alt="" width="350" height="550">
 
-4. Then you can modify the following parameters:
+5. Then you can modify the following parameters:
     - Sample size (n): Desired number of outputs.
     - Variants (v): Number of times the query is going to be paraphrased before simulation starts.
     - Population size (N): Number of individuals (Sentences or paragraphs) in the simulated population.
