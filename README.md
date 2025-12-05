@@ -29,7 +29,7 @@ At the moment, the tool only works locally, but in the next update its use will 
 ```
 cd /path_to/Hopeful_Monsters-main/
 ```
-2. Then make sure the `WritingApp.sh` file is executable, you can check this with the `ls` command:
+2. Then make sure the `WritingApp.sh` file is executable (has the x's in the attributes list for all owners), you can check this with the `ls` command:
 ```
 ls -l
 ```
