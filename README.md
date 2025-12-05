@@ -26,6 +26,13 @@ De momento la herramienta solo funciona de manera local pero en la siguiente act
 
 1. Una vez instalados todos los requerimientos previos, abre la terminal de tu ordenador y usando el comando `cd` dirigete hacia la carpeta que descargaste del repositorio en github:
 ```{bash}
-cd /path_to/Hopeful_Monsters_main
+cd /path_to/Hopeful_Monsters-main/
 ```
-2. 
+2. Luego asegurate de que los archivos `WritingApp.R` y `WritingApp.sh` sean ejecutables, esto lo puede vizualizar con el comando `ls`:
+```{bash}
+ls -l
+```
+`![Los archivos deberian tener el atributo x para todos los usuarion del ordenador](image1.png)`
+
+
+3. 
