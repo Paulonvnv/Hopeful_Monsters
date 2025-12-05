@@ -28,13 +28,12 @@ De momento la herramienta solo funciona de manera local pero en la siguiente act
 ```{bash}
 cd /path_to/Hopeful_Monsters-main/
 ```
-2. Luego asegurate de que los archivos `WritingApp.R` y `WritingApp.sh` sean ejecutables, esto lo puede vizualizar con el comando `ls`:
+2. Luego asegurate de que el archivo `WritingApp.sh` sea ejecutable, esto lo puede vizualizar con el comando `ls`:
 ```{bash}
 ls -l
 ```
-
 ![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)
-
-
-
-3. 
+3. Si el archivo no es ejecutable, ejecuta el comando `chomd`:
+```
+chmod +x WritingApp.sh
+```
