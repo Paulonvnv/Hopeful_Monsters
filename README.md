@@ -31,8 +31,9 @@ cd /path_to/Hopeful_Monsters-main/
 2. Luego asegurate de que el archivo `WritingApp.sh` sea ejecutable, esto lo puede vizualizar con el comando `ls`:
 ```{bash}
 ls -l
-```
+```{fig.width = 4, fig.height = 2}
 ![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)
+
 3. Si el archivo no es ejecutable, ejecuta el comando `chomd`:
 ```
 chmod +x WritingApp.sh
@@ -51,4 +52,5 @@ cd /path_to/Hopeful_Monsters-main/
 ```
 La herramienta deberia abri tu navegador de forma automatica y mostrarte la siguiente ventana:
 ![image2](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png)
+
 3. 
