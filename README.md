@@ -57,6 +57,8 @@ The tool should automatically open your browser and show you the following windo
 
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png" alt="" width="350" height="550">
 
+**Note!**: If this is the first time you run it, it might take few minutes, as the tool will install additional R libraries and the Llama3 model on your computer.
+
 3. In it you will find a text box where you can enter the sentence or paragraph you want to use as a query:
    
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image3.png" alt="" width="350" height="550">
