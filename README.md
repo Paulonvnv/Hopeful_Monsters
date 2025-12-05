@@ -32,9 +32,9 @@ cd /path_to/Hopeful_Monsters-main/
 ```{bash}
 ls -l
 ```
-```{bash}
+
 ![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)
-```
+
 
 
 3. 
