@@ -29,7 +29,7 @@ At the moment, the tool only works locally, but in the next update its use will 
 ```
 cd /path_to/Hopeful_Monsters-main/
 ```
-2. Then make sure the `WritingApp.sh` file is executable, you can check this with the `ls` command:
+2. Then make sure the `WritingApp.sh` file is executable (has the x's in the attributes list for all owners), you can check this with the `ls` command:
 ```
 ls -l
 ```
@@ -75,6 +75,8 @@ More information regarding how these parameters are used by the tool can be foun
 
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image4.png" alt="" width="350" height="550">
 
-7. To obtain a sample of the final result, press the `sample` button, and a table with the final result of the simulation will be displayed. You can press the sample button as many times as you wish, and each time it will provide you with a slightly different result.
+7. To obtain a sample of the final result, press the `sample` button and scroll down the window, and a table with the final result of the simulation will be displayed. You can press the sample button as many times as you wish, and each time it will provide you with a slightly different result.
 
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image5.png" alt="" width="350" height="550">
+
+8. to stop the tool just close the window at your browser and your terminal or press `Ctrl + c` on your temrinal.
