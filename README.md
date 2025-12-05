@@ -32,7 +32,7 @@ cd /path_to/Hopeful_Monsters-main/
 ```{bash}
 ls -l
 ```
-`![Los archivos deberian tener el atributo x para todos los usuarion del ordenador](image1.png)`
+`![Los archivos deberian tener el atributo x para todos los usuarion del ordenador](./image1.png)`
 
 
 3. 
