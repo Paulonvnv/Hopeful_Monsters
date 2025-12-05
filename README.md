@@ -8,52 +8,71 @@ The molecular machinery of an organism's cells replicates genetic material durin
 Similarly, during the literary writing process, it is common to rewrite the work multiple times. This process introduces changes, some deliberately and others involuntarily, that occasionally shift the writing's meaning and improve it.
 That is why here we have incorporated an algorithm that mirrors this rewriting process and couples the molecular mechanisms of DNA chain replication to introduce changes that can help the writer identify new ideas to incorporate into their work.
 
-## Requerimientos usar la herramienta
+## Requirements for Using the Tool
 
-El algoritmo esta escrito en el lenguaje de programacion R y ademas utiliza Ollama.
-Instrucciones para la descarga e instalacion de estos programas se pueden encontrar en los siguientes links:
+The algorithm is written in the R programming language and also uses Ollama.
+Instructions for downloading and installing these programs can be found at the following links:
 
 - [Download R](https://www.r-project.org)
 - [Download Ollama](https://ollama.com/download)
 - [Download RStudio](https://posit.co/download/rstudio-desktop/)
 
-Una vez instalado los programas mencionados, procede a clonar este repositorio usando git, o si no estas familiarizado con git puedes descargar el archivo comprimido de la herramienta en el siguiente [link](https://github.com/Paulonvnv/Hopeful_Monsters/archive/refs/heads/main.zip), y descomprime la carpeta en el directorio de tu preferencia.
+Once you've installed the mentioned programs, proceed to clone this repository using git, or if you're not familiar with git, you can download the compressed file of the tool at the following [link](https://github.com/Paulonvnv/Hopeful_Monsters/archive/refs/heads/main.zip), and extract the folder to your preferred directory.
 
-## Installacion de la herramienta
-De momento la herramienta solo funciona de manera local pero en la siguiente actualizacion se habilitara su uso desde un navegador de internet.
+## Tool Installation
+
+At the moment, the tool only works locally, but in the next update its use will be enabled through a web browser.
 
 ### MacOS o linux
 
-1. Una vez instalados todos los requerimientos previos, abre la terminal de tu ordenador y usando el comando `cd` dirigete hacia la carpeta que descargaste del repositorio en github:
-```{bash}
+1. Once all the prerequisites are installed, open your computer's terminal and using the `cd` command navigate to the folder you downloaded from the github repository:
+```
 cd /path_to/Hopeful_Monsters-main/
 ```
-2. Luego asegurate de que el archivo `WritingApp.sh` sea ejecutable, esto lo puede vizualizar con el comando `ls`:
-```{bash}
+2. Then make sure the `WritingApp.sh` file is executable, you can check this with the `ls` command:
+```
 ls -l
 ```
 
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png" alt="" width="550" height="350">
 
-3. Si el archivo no es ejecutable, ejecuta el comando `chomd`:
+3. If the file is not executable, run the `chmod` command:
 
 ```
 chmod +x WritingApp.sh
 ```
-!Este paso lo lo debes ejecutar la primera vez que usas la herramienta.
+**!Note:** You only need to execute this step the first time you use the tool.
 
-# Uso de la herramienta
+# Using the Tool
 
-1. Abre la terminal de tu ordenador y usando el comando `cd` dirigete hacia la carpeta que descargaste del repositorio en github:
-```{bash}
+1. Open your computer's terminal and using the cd command navigate to the folder you downloaded from the github repository:
+```
 cd /path_to/Hopeful_Monsters-main/
 ```
-2. Ejecuta la siguiente linea de comando en la terminal:
+2. Execute the following command line in the terminal:
 ```
 ./WritingApp.sh
 ```
-La herramienta deberia abri tu navegador de forma automatica y mostrarte la siguiente ventana:
+The tool should automatically open your browser and show you the following window:
 <img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image2.png" alt="" width="350" height="550">
 
+3. In it you will find a text box where you can enter the sentence or paragraph you want to use as a query:
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image3.png" alt="" width="350" height="550">
 
-3. 
+4. Then you can modify the following parameters:
+    - Sample size (n): Desired number of outputs.
+    - Variants (v): Number of times the query is going to be paraphrased before simulation starts.
+    - Population size (N): Number of individuals (Sentences or paragraphs) in the simulated population.
+    - Generations (t): Number of generations the simulation will run.
+    - Mutation rate (𝜇): per site (character or letter), per individual rate at which mutation might occur.
+    - Recombination rate (𝜌): Rate at which haplotypes (sentences within the diploid stage of the individual) might recombine (switching of words between haplotypes).
+
+More information regarding how these parameters are used by the tool can be found at [Writing tool scheme](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/Writing_tool_scheme.pptx)
+
+5. Once the parameters are defined, simply press the `Go` button and wait a few seconds or minutes. When the process finishes, a table will be generated with the initial variants that were used in the simulation. Note: this is not the final result, just a paraphrase of your original query.
+
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image4.png" alt="" width="350" height="550">
+
+7. To obtain a sample of the final result, press the `sample` button, and a table with the final result of the simulation will be displayed. You can press the sample button as many times as you wish, and each time it will provide you with a slightly different result.
+
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image5.png" alt="" width="350" height="550">
