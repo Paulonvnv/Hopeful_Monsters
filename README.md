@@ -33,7 +33,7 @@ cd /path_to/Hopeful_Monsters-main/
 ls -l
 ```
 
-<img src="[image-url](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)" alt="" width="550" height="350">
+<img src="https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png" alt="" width="550" height="350">
 
 3. Si el archivo no es ejecutable, ejecuta el comando `chomd`:
 
