@@ -32,9 +32,9 @@ cd /path_to/Hopeful_Monsters-main/
 ```{bash}
 ls -l
 ```
-```{fig.width = 4, fig.height = 2}
-![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png)
-```
+
+![image1](https://github.com/Paulonvnv/Hopeful_Monsters/blob/main/image1.png = 2X4)
+
 3. Si el archivo no es ejecutable, ejecuta el comando `chomd`:
 
 ```
